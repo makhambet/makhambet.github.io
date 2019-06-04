@@ -52,7 +52,7 @@ const v = new Vue({
           if(this.change == true){
             this.number = Math.floor(Math.random() *100)
           }
-        }, 1000);
+        }, 2000);
       console.log(this.change)
     },
   },
